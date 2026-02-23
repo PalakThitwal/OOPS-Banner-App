@@ -30,17 +30,6 @@ public class OOPSBannerApp {
 	public static void main(String[] args)
 	{
 		System.out.println("OOPS");
-<<<<<<< HEAD
-	System.out.println(" ***  "   + "   *** " + "  ****** "     +  " ***** ");
-	System.out.println("**   ** " + " **   ** " + " **   ** "+ "  **   ");
-	System.out.println("**   ** " + " **   ** " + " **   ** " +"  **    ");
-	System.out.println("**   ** " + " **   ** " + " ****** " +      "****    ");
-	System.out.println("**   ** " + " **   ** " + " **    "      + "    **");
-	System.out.println("**   ** " + " **   ** " + " **    "      + "   **    ");
-	System.out.println(" ***  "   + "   ***    "   +"**   "   + " ***** ");
-    }
-}	
-=======
 		System.out.println("   ***   " + "   ***   " + "   ******   " + "   ******   ");
 		System.out.println(" **   ** " + " **   ** " + " **      ** " + " ***   ");
 		System.out.println(" **   ** " + " **   ** " + " **      ** " + "  ***   ");
@@ -50,5 +39,3 @@ public class OOPSBannerApp {
 		System.out.println("   ***   " + "   ***   " + " **         " + "   ******   ");
 	}
 }
->>>>>>> feature/UC2-BannerPrintStatements
-		
