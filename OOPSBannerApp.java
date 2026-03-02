@@ -5,9 +5,21 @@
 */
 
 /**
+<<<<<<< HEAD
 public class OOPSBannerApp {
 	public static void main(String[] args)
 	{
+=======
+<<<<<<< HEAD
+public class OOPSBannerApp{
+	
+	public static void main(String[] args) {
+=======
+public class OOPSBannerApp {
+	public static void main(String[] args)
+	{
+>>>>>>> feature/UC3-UsingString
+>>>>>>> dev
 		System.out.println("OOPS");
 		System.out.println("   ***   " + "   ***   " + "   ******   " + "   ******   ");
 		System.out.println(" **   ** " + " **   ** " + " **      ** " + " ***   ");
@@ -20,6 +32,28 @@ public class OOPSBannerApp {
 }
 */
 
+/**
+
+ 
+*@PalakThitwal Developer
+@PalakThitwal Developer
+ feature/UC2-BannerPrintStatements
+@version 2
+*/
+
+public class OOPSBannerApp {
+	public static void main(String[] args)
+	{
+		System.out.println("OOPS");
+		System.out.println(" ***  "   + "   *** " + "  ****** "     +  " ***** ");
+		System.out.println("**   ** " + " **   ** " + " **   ** "+ "  **   ");
+		System.out.println("**   ** " + " **   ** " + " **   ** " +"  **    ");
+		System.out.println("**   ** " + " **   ** " + " ****** " +      "****    ");
+		System.out.println("**   ** " + " **   ** " + " **    "      + "    **");
+		System.out.println("**   ** " + " **   ** " + " **    "      + "   **    ");
+		System.out.println(" ***  "   + "   ***    "   +"**   "   + " ***** ");
+    }
+}	
 /**
 @PlakThitwal Developer
 @version 3.0
@@ -37,4 +71,4 @@ public class OOPSBannerApp {
 			System.out.println(String.join(" " , "   ***   " , "   ***   " , " **         " , "   ******   "));
 		}
 }
-		
+
