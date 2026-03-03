@@ -5,34 +5,6 @@
 */
 
 /**
-<<<<<<< HEAD
-public class OOPSBannerApp {
-	public static void main(String[] args)
-	{
-=======
-<<<<<<< HEAD
-public class OOPSBannerApp{
-	
-	public static void main(String[] args) {
-=======
-public class OOPSBannerApp {
-	public static void main(String[] args)
-	{
->>>>>>> feature/UC3-UsingString
->>>>>>> dev
-		System.out.println("OOPS");
-		System.out.println("   ***   " + "   ***   " + "   ******   " + "   ******   ");
-		System.out.println(" **   ** " + " **   ** " + " **      ** " + " ***   ");
-		System.out.println(" **   ** " + " **   ** " + " **      ** " + "  ***   ");
-		System.out.println(" **   ** " + " **   ** " + " **      ** " + "    *****   ");
-		System.out.println(" **   ** " + " **   ** " + " *******    " + "       ***   ");
-		System.out.println(" **   ** " + " **   ** " + " **         " + "       ***   ");
-		System.out.println("   ***   " + "   ***   " + " **         " + "   ******   ");
-	}
-}
-*/
-
-/**
 
  
 *@PalakThitwal Developer
@@ -41,6 +13,7 @@ public class OOPSBannerApp {
 @version 2
 */
 
+/**
 public class OOPSBannerApp {
 	public static void main(String[] args)
 	{
@@ -54,11 +27,14 @@ public class OOPSBannerApp {
 		System.out.println(" ***  "   + "   ***    "   +"**   "   + " ***** ");
     }
 }	
+*/
+
 /**
 @PlakThitwal Developer
 @version 3.0
 */
 
+/**
 public class OOPSBannerApp {
 		public static void main(String[] args)
 		{
@@ -71,4 +47,22 @@ public class OOPSBannerApp {
 			System.out.println(String.join(" " , "   ***   " , "   ***   " , " **         " , "   ******   "));
 		}
 }
+*/
 
+/**
+@PalakThitwal Developer
+@version 4
+*/
+
+public class OOPSBannerApp {
+	public static void main(String[] args) 
+	{
+		lines[0] = System.out.println(String.join(" " , "   ***   " , "   ***   " , "   ******   " , "   ******   "));
+		lines[1] = System.out.println(String.join(" " , " **   ** " , " **   ** " , " **      ** " , " ***        "));
+		lines[2] = System.out.println(String.join(" " , " **   ** " , " **   ** " , " **      ** " , "  ***       "));
+		lines[3] = System.out.println(String.join(" " , " **   ** " , " **   ** " , " **      ** " , "    *****   "));
+		lines[4] = System.out.println(String.join(" " , " **   ** " , " **   ** " , " *******    " , "       ***  "));
+		lines[5] = System.out.println(String.join(" " , " **   ** " , " **   ** " , " **         " , "       ***  "));
+		lines[6] = System.out.println(String.join(" " , "   ***   " , "   ***   " , " **         " , "   ******   "));
+	}
+}
