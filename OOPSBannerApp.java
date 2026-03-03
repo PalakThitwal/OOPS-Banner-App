@@ -54,6 +54,7 @@ public class OOPSBannerApp {
 @version 4
 */
 
+/**
 public class OOPSBannerApp {
 	public static void main(String[] args) 
 	{
@@ -64,5 +65,28 @@ public class OOPSBannerApp {
 		lines[4] = System.out.println(String.join(" " , " **   ** " , " **   ** " , " *******    " , "       ***  "));
 		lines[5] = System.out.println(String.join(" " , " **   ** " , " **   ** " , " **         " , "       ***  "));
 		lines[6] = System.out.println(String.join(" " , "   ***   " , "   ***   " , " **         " , "   ******   "));
+	}
+}
+*/
+
+/**
+@PalakThitwal Developer
+@version 5
+*/
+
+public class OOPSBannerApp {
+	public static void main(String[] args)
+	{
+		String[] lines = {
+			String.join(" " , "   ***   " , "   ***   " , "   ******   " , "   ******   "),
+			String.join(" " , " **   ** " , " **   ** " , " **      ** " , " ***        "),
+			String.join(" " , " **   ** " , " **   ** " , " **      ** " , "  ***       "),
+			String.join(" " , " **   ** " , " **   ** " , " **      ** " , "    *****   "),
+			String.join(" " , " **   ** " , " **   ** " , " *******    " , "       ***  "),
+			String.join(" " , " **   ** " , " **   ** " , " **         " , "       ***  "),
+			String.join(" " , "   ***   " , "   ***   " , " **         " , "   ******   ")};
+		for (String line : lines) {
+			System.out.println(line);
+		}
 	}
 }
