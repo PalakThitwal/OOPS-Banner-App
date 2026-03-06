@@ -1,92 +1,63 @@
 
 /**
 @PalakThitwal Developer
-@version 2
+@version 6
 */
 
-/**
-
- 
-*@PalakThitwal Developer
-@PalakThitwal Developer
- feature/UC2-BannerPrintStatements
-@version 2
-*/
-
-/**
 public class OOPSBannerApp {
-	public static void main(String[] args)
-	{
-		System.out.println("OOPS");
-		System.out.println(" ***  "   + "   *** " + "  ****** "     +  " ***** ");
-		System.out.println("**   ** " + " **   ** " + " **   ** "+ "  **   ");
-		System.out.println("**   ** " + " **   ** " + " **   ** " +"  **    ");
-		System.out.println("**   ** " + " **   ** " + " ****** " +      "****    ");
-		System.out.println("**   ** " + " **   ** " + " **    "      + "    **");
-		System.out.println("**   ** " + " **   ** " + " **    "      + "   **    ");
-		System.out.println(" ***  "   + "   ***    "   +"**   "   + " ***** ");
-    }
-}	
-*/
-
-/**
-@PlakThitwal Developer
-@version 3.0
-*/
-
-/**
-public class OOPSBannerApp {
-		public static void main(String[] args)
-		{
-			System.out.println(String.join(" " , "   ***   " , "   ***   " , "   ******   " , "   ******   "));
-			System.out.println(String.join(" " , " **   ** " , " **   ** " , " **      ** " , " ***        "));
-			System.out.println(String.join(" " , " **   ** " , " **   ** " , " **      ** " , "  ***       "));
-			System.out.println(String.join(" " , " **   ** " , " **   ** " , " **      ** " , "    *****   "));
-			System.out.println(String.join(" " , " **   ** " , " **   ** " , " *******    " , "       ***  "));
-			System.out.println(String.join(" " , " **   ** " , " **   ** " , " **         " , "       ***  "));
-			System.out.println(String.join(" " , "   ***   " , "   ***   " , " **         " , "   ******   "));
-		}
-}
-*/
-
-/**
-@PalakThitwal Developer
-@version 4
-*/
-
-/**
-public class OOPSBannerApp {
-	public static void main(String[] args) 
-	{
-		lines[0] = System.out.println(String.join(" " , "   ***   " , "   ***   " , "   ******   " , "   ******   "));
-		lines[1] = System.out.println(String.join(" " , " **   ** " , " **   ** " , " **      ** " , " ***        "));
-		lines[2] = System.out.println(String.join(" " , " **   ** " , " **   ** " , " **      ** " , "  ***       "));
-		lines[3] = System.out.println(String.join(" " , " **   ** " , " **   ** " , " **      ** " , "    *****   "));
-		lines[4] = System.out.println(String.join(" " , " **   ** " , " **   ** " , " *******    " , "       ***  "));
-		lines[5] = System.out.println(String.join(" " , " **   ** " , " **   ** " , " **         " , "       ***  "));
-		lines[6] = System.out.println(String.join(" " , "   ***   " , "   ***   " , " **         " , "   ******   "));
+	public static String[] getOPattern() {
+		return new String[] {
+			"   ***   ",
+			" **   ** ",
+			" **   ** ",
+			" **   ** ",
+			" **   ** ",
+			" **   ** ",
+			"   ***   ",
+		};
 	}
-}
-*/
-
-/**
-@PalakThitwal Developer
-@version 5
-*/
-
-public class OOPSBannerApp {
-	public static void main(String[] args)
-	{
-		String[] lines = {
-			String.join(" " , "   ***   " , "   ***   " , "   ******   " , "   ******   "),
-			String.join(" " , " **   ** " , " **   ** " , " **      ** " , " ***        "),
-			String.join(" " , " **   ** " , " **   ** " , " **      ** " , "  ***       "),
-			String.join(" " , " **   ** " , " **   ** " , " **      ** " , "    *****   "),
-			String.join(" " , " **   ** " , " **   ** " , " *******    " , "       ***  "),
-			String.join(" " , " **   ** " , " **   ** " , " **         " , "       ***  "),
-			String.join(" " , "   ***   " , "   ***   " , " **         " , "   ******   ")};
-		for (String line : lines) {
-			System.out.println(line);
+	public static String[] getQPattern() {
+		return new String[] {
+			"   ***   ",
+			" **   ** ",
+			" **   ** ",
+			" **   ** ",
+			" **   ** ",
+			" **   ** ",
+			"   ***   ",
+		};
+	}
+	public static String[] getPPattern() {
+		return new String[] {
+			"   ******   ",
+			" **      ** ",
+			" **      ** ",
+			" **      ** ",
+			" *******    ",
+			" **         ",
+			" **         ",
+		};
+	}
+	public static String[] getSPattern() {
+		return new String[] {
+			"   ******   ",
+			" ***        ",
+			"  ***       ",
+			"    *****   ",
+			"       ***  ",
+			"       ***  ",
+			"   ******   ",
+		};
+	}
+	public static void main(String[] args) {
+		String[] oPattern = getOPattern();
+		String[] qPattern = getQPattern();
+		String[] pPattern = getPPattern();
+		String[] sPattern = getSPattern();
+		
+		for (int i = 0; i < oPattern.length; i++) {
+			System.out.println(oPattern[i]+ " " + oPattern[i] + " " + pPattern[i] + " " + sPattern[i]);
 		}
 	}
 }
+		
